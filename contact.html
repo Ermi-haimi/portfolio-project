@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+
+<body>
+
+    <head>
+        <h1>Contact me</h1>
+    </head>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Tell Me About Yourself</legend>
+                <div>
+                    <label for="fName">Your First Name</label>
+                    <input type="text" name="firstName" id="fName" placeholder="Abebe..." required>
+                </div>
+                <div>
+                    <label for="lName">Your Last Name</label>
+                    <input type="text" name="lastName" id="lName" placeholder="Kebede..." required>
+                </div>
+                <div>
+                    <label for="age">Age</label>
+                    <input type="number" name="age" id="age" min="10" max="100">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Football</legend>
+                <div>
+                    <p>Yoor Favorite Football Team</p>
+                    <input type="radio" name="favTeam" id="arsenal" value="arsenal">
+                    <label for="arsenal">Arsenal</label><br>
+                    <input type="radio" name="favTeam" id="manutd" value="manchesterUnited">
+                    <label for="manutd">Manchester United</label><br>
+                    <input type="radio" name="favTeam" id="liverpool" value="liverpool">
+                    <label for="liverpool">Liverpool</label><br>
+                    <input type="radio" name="favTeam" id="anotherTeam" value="anotherTeam">
+                    <label for="anotherTeam">Another Team</label>
+                </div>
+
+                <div>
+                    <label for="supportDate">When did you start supporting your team</label><br>
+                    <input type="date" name="supportDate" id="supportDate">
+                </div>
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html>
