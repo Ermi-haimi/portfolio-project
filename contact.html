@@ -28,6 +28,10 @@
                     <label for="age">Age</label>
                     <input type="number" name="age" id="age" min="10" max="100">
                 </div>
+                <div>
+                    <label for="phone">Your phone number: </label>
+                    <input type="tel" name="phoneNumber" id="phone">
+                </div>
             </fieldset>
             <fieldset>
                 <legend>Football</legend>
@@ -47,7 +51,19 @@
                     <label for="supportDate">When did you start supporting your team</label><br>
                     <input type="date" name="supportDate" id="supportDate">
                 </div>
+                <div>
+                    <label for="happy">How Happy are you about next season of your team:</label>
+                    <input type="range" name="happiness" id="happy">
+                </div>
             </fieldset>
+            <div>
+                <label for="message">Your message: </label><br>
+                <textarea name="message" id="message" placeholder="type your message here..." cols="20"
+                    rows="4"></textarea>
+            </div>
+
+            <button type="submit">Submit</button>
+            <button type=reset>Reset</button>
         </form>
     </main>
 </body>
